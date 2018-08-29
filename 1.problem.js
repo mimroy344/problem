@@ -1,4 +1,4 @@
-//problem:1
+/************************************problem:1********************************/
 //print even number between 0-10
 //output 0,2,4,6,8,10
 var i=0;
@@ -9,9 +9,11 @@ while(i<=10){
     } 
     i++;
 }
+
 console.log('\n reset \n');
+
+//bt expected output 0,2,4,6,8,10
 //output 0-10 
-//bt excepted output 0,2,4,6,8,10
 var i=0;
 var remainder=i%2;
 while(i<=10){
