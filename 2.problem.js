@@ -13,7 +13,7 @@
 // factorial of 10 is 3628800
 
 for(var j=1;j<=10;j++){
-     factorial =1;
+     var factorial =1;
     for(var i=j;i>0;i--){
         factorial*=i;
     }
